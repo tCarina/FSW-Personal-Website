@@ -7,8 +7,8 @@ aP.innerText = "Hello! My name is Carina and I am a fullstack web engineer born 
 
 let textP = document.querySelector("#tap")
 
-textP.innerText = ""
+textP.innerText = "Info goes here"
 
 let snowP = document.querySelector("#smp")
 
-snowP.innerText = "lorem ipsum"
+snowP.innerText = "Info goes here"
