@@ -11,10 +11,17 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
+        <nav>
+            <a href="#introPage">Home</a>|
+            <a href="#aboutMe">About Me</a>|
+            <a href="#projectsPage">Projects</a>|
+            <a href="#contactPage">Contact Me</a>
+          </nav> 
+
     <section id="introPage">
 
         <div class="imageContainer">
-            <img src="./photos/headshot.jpg" class="portfolioImage"/>
+            <img src="./media/headshot.jpg" class="portfolioImage"/>
         </div>
 
         <div class="titleContainer">
@@ -23,19 +30,32 @@
         </div>
 
     </section>
-    <nav>
-        <a href="#introPage">Home</a> |
-        <a href="#aboutMe">About Me</a> |
-        <a href="#projectsPage">Projects</a> |
-        <a href="#contactPage">Contact Me</a>
-      </nav> 
-
      <section id="aboutMe">
          <h1>About Me</h1>
+         <div id="photoCont2">
+             <img src="./media/aboutPic.png" class="aboutPicture">
+         </div>
          <h2>Compassionate, Creative, and A Little Nerdy</h2>
          <p id="aboutP"> </p>
      </section>
-     <Section id="projectsPage">Projects</section>
+     <Section id="projectsPage"> <h2>Projects</h2>
+        <div id="projects">
+        <video loop width="400" height="400" autoplay loop>
+            <source src="./media/textAdventure.mp4" type="video/mp4">
+          </video>
+          
+          <video width="400" height="400" autoplay="autoplay" loop>
+            <source src="./media/snowman.mp4" type="video/mp4">
+          </video>
+        </div>
+          <div id="pText">
+
+          <p id="tap">
+              <h2>Escape </h2>
+          </p>
+          <p id="smp"></p>
+        </div>
+     </Section>
      <section id="contactPage">Contact Me</section>   
 
 
