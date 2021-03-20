@@ -1,64 +1,81 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Carina's Portfolio</title>
-        <script src="index.js" async defer></script>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <nav>
-            <a href="#introPage">Home</a>|
-            <a href="#aboutMe">About Me</a>|
-            <a href="#projectsPage">Projects</a>|
-            <a href="#contactPage">Contact Me</a>
-          </nav> 
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Carina's Portfolio</title>
+    <script src="index.js" async defer></script>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="#introPage">Home</a>| <a href="#aboutMe">About Me</a>|
+      <a href="#projectsPage">Projects</a>|
+      <a href="#contactPage">Contact Me</a>
+    </nav>
 
     <section id="introPage">
+      <div class="imageContainer">
+        <img src="./media/headshot.jpg" class="portfolioImage" />
+      </div>
 
-        <div class="imageContainer">
-            <img src="./media/headshot.jpg" class="portfolioImage"/>
-        </div>
-
-        <div class="titleContainer">
+      <div class="titleContainer">
         <h1 class="title">Carina Taveras</h1>
         <h3 class="subTitle">Fullstack Web Developer</h3>
-        </div>
-
+      </div>
     </section>
-     <section id="aboutMe">
-         <h1>About Me</h1>
-         <div id="photoCont2">
-             <img src="./media/aboutPic.png" class="aboutPicture">
-         </div>
-         <h2>Compassionate, Creative, and A Little Nerdy</h2>
-         <p id="aboutP"> </p>
-     </section>
-     <Section id="projectsPage"> <h1>Projects</h1>
-        <h2>Straightforward Terminal Games</h2>
-        <div id="projects">
+    <section id="aboutMe">
+      <h1>About Me</h1>
+      <div id="photoCont2">
+        <img src="./media/aboutPic.png" class="aboutPicture" />
+      </div>
+      <h2>Compassionate, Creative, and A Little Nerdy</h2>
+      <p id="aboutP"></p>
+    </section>
+    <section id="projectsPage">
+      <h1>Projects</h1>
+      <h2>Straightforward Terminal Games</h2>
+      <div id="projects">
         <video loop width="400" height="400" autoplay loop>
-            <source src="./media/textAdventure.mp4" type="video/mp4">
-          </video>
-          
-          <video width="400" height="400" autoplay="autoplay" loop>
-            <source src="./media/snowman.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div id="pTitles">
-        <h2>Escape 120</h2> <h2>Snowman</h2>
-         </div>
-          <div id="pText">
-          <p id="tap"></p>
-          <p id="smp"></p>
-        </div>
-     </Section>
-     <section id="contactPage">Contact Me</section>   
+          <source src="./media/textAdventure.mp4" type="video/mp4" />
+        </video>
 
+        <video width="400" height="400" autoplay loop>
+          <source src="./media/snowman.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div id="pTitles">
+        <h2>Escape 120</h2>
+        <h2>Snowman</h2>
+      </div>
+      <div id="pText">
+        <p id="tap"></p>
+        <p id="smp"></p>
+      </div>
+    </section>
+    <section id="contactPage">
+      <div id="cText">
+      <h1>Contact Me!</h1>
+      <h2>Or find out more!</h2>
+    </div>
+<form
+action="https://formspree.io/f/mlearezv"
+method="POST" name="cForm"
+>
+<label>
+  Your email:
+  <input required type="email" name="_replyto" >
+</label>
+<label>
+  Your message:
+  <textarea required name="message" ></textarea>
+</label>
 
-    </body>
+<button type="submit">Send</button>
+</form>      
+    </section>
+  </body>
 </html>

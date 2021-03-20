@@ -85,7 +85,7 @@ a {
 #aboutMe {
   color: white;
   text-align: center;
-  border: solid #ffadad 7px;
+  border: solid #caffbf 7px;
   padding-top: 70px;
   margin-bottom: 50px;
   padding-bottom: 40px;
@@ -109,7 +109,7 @@ a {
 }
 #projectsPage {
   padding: 20px;
-  border: solid #cdb4db 7px;
+  border: solid #caffbf 7px;
   margin-top: 50px;
   color: white;
   font-size: x-large;
@@ -125,9 +125,58 @@ a {
 }
 
 #pText {
+    text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     font-size: medium;
     padding-top: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: x-large;
+  border: solid 7px #ffafcc;
+  margin: 20px;
+  padding: 20px;
+  width: 40%;
+align-content: center;}
+
+input{
+  width: auto;
+  margin: 10px;
+  background-color: white;
+}
+textarea {
+  width: 374px;
+  height: 105px;
+  margin: 10px;
+  background-color: white;
+}
+button {
+  width: 100px;
+  height: 30px;
+  margin: 10px;
+  align-self: center;
+  border: solid #fdffb6 2px;
+  color: #ffafcc;
+  font-size: medium;
+}
+
+
+#contactPage {
+  margin-top: 50px;
+  border: solid#caffbf 7px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+
+}
+
+#cText {
+  margin: 20px;
 }
