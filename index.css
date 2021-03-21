@@ -273,6 +273,11 @@ button {
 
  #logo {
    max-height: 44px;
+   padding: 15px;
+ }
+
+ #logo:hover {
+   filter: invert(1);
  }
  #logos {
    border: solid #ffafcc 7px;
