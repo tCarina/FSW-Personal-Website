@@ -212,6 +212,7 @@ align-content: center;}
 
 .projectTitle:hover {
   cursor: pointer;
+  color: #fdffb6 ;
 }
 
 input{
