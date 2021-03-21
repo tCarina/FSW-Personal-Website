@@ -41,14 +41,14 @@
       </div> 
       <div id="pText">
         <div>
-          <h2 class="projectTitle">Escape 120</h2>
+          <a href="https://github.com/tCarina/FSW-Text-Based-Adventure" target="_blank"><h2 class="projectTitle">Escape 120</h2></a>
           <video loop width="400" height="400" autoplay loop>
             <source src="./media/textAdventure.mp4" type="video/mp4" />
           </video>
           <p id="tap"></p>
         </div>
         <div>
-          <h2 class="projectTitle">Snowman</h2>
+          <a href="https://github.com/tCarina/FSW-CLI-Snowman" target="_blank"><h2 class="projectTitle">Snowman</h2></a>
           <video width="400" height="400" autoplay loop>
             <source src="./media/snowman.mp4" type="video/mp4" />
           </video>
@@ -59,9 +59,13 @@
     </section>
     <section id="contactPage">
       <div id="cText">
-      <h1>Contact Me!</h1>
-      <h2>Or find out more!</h2>
+      <h1 id="contactTitle">Contact Me!</h1>
     </div>
+      <section id="logos">
+       <a href= "https://github.com/tCarina" target="_blank"><img src="./media/GitHub-Mark-Light-64px.png" id="logo"></a>
+
+       <a href="https://linkedin.com/in/carina-taveras" target="_blank"><img src="./media/LI-In-Bug.png" id="logo"></a>
+      </section>
 <form
 action="https://formspree.io/f/mlearezv"
 method="POST" name="cForm"
@@ -77,7 +81,15 @@ class="formParent"
 </label>
 
 <button type="submit">Send</button>
-</form>      
+</form>    
+    <section id="factsCont">
+<h2>Random Carina Fact Generator!</h2>
+<div class="factButton">
+  <button id="newF">New Fact!</button>  
+</div>
+<div id="factParent">
+<p id="fact">Click for a random fact!</p>
+</div>
     </section>
   </body>
 </html>
