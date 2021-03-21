@@ -80,6 +80,7 @@ a:link {
 
 a {
   color: #fdffb6;
+  background: transparent;
 }
 
 #aboutMe {
@@ -143,6 +144,60 @@ form {
   padding: 20px;
   width: 40%;
 align-content: center;}
+
+@media screen and (max-width: 425px) {
+  .formParent {
+    width: 80% !important;
+  }
+  #projects {
+    display: none;
+  }
+
+  .messageBox {
+    width: 90%;
+  }
+
+  .emailBox {
+    width: 90%;
+  }
+
+  .subTitle {
+    font-size: x-large;
+  }
+
+  .title {
+    font-size: xxx-large;
+  }
+
+  .imageContainer {
+    padding-top: 25%;
+  }
+
+  .gameHeading {
+    font-size: medium;
+  }
+
+  .portfolioImage {
+    max-width: 250px;
+    max-height: 250px;
+  }
+
+  #pText {
+    flex-direction: column;
+  }
+
+  video {
+    width: 80%;
+    height: 50%;
+    padding: 20px;
+  }
+
+  .projectTitle {
+    padding-top: 10px;
+  }
+}
+
+
 
 input{
   width: auto;
